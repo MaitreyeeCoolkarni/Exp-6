@@ -3,7 +3,7 @@
 ## Apparatus-
 VSCode/Programiz
 
-##Theory 
+## Theory 
 
 📌 What is a Loop?
 
