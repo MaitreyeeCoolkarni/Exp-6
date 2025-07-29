@@ -1,6 +1,6 @@
-##Aim: To study and implement C++ decision making statements Loops
+## Aim: To study and implement C++ decision making statements Loops
 
-##Apparatus-VSCode/Programiz
+## Apparatus-VSCode/Programiz
 
 ##Theory on Loops
 📌 What is a Loop?
@@ -12,7 +12,7 @@ You want to repeat something multiple times.
 
 You want to run the same set of instructions for different values.
 
-##🔄 Types of Loops
+## 🔄 Types of Loops
 1. For Loop
 Used when you know in advance how many times you want to run the loop.
 
@@ -29,9 +29,6 @@ for(int i = 0; i < 5; i++){
 Used when you don’t know exactly how many times to run — loop continues as long as the condition is true.
 
 💡 Syntax:
-cpp
-Copy
-Edit
 while(condition){
     // code to execute
 }
@@ -64,14 +61,11 @@ The loop runs while this is true. As soon as it’s false, the loop stops.
 ✅ Update:
 Changes the counter to eventually stop the loop (like i++).
 
-##Program on patterns
+## Program on patterns
 🔁 Structure of Pattern Printing
 ✅ 1. Outer Loop – Controls Rows
 The first (outer) loop is responsible for how many lines (rows) will be printed. Each iteration of this loop prints one row of the pattern.
 
-cpp
-Copy
-Edit
 for(int i = 1; i <= n; i++) {
     // Inner loop goes here
 }
@@ -105,6 +99,6 @@ Third loop prints stars (increasing per row).
 
 
 
-##Conclusion
+## Conclusion
 
 
