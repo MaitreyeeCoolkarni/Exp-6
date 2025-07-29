@@ -1,6 +1,7 @@
 ## Aim: To study and implement C++ decision making statements Loops
 
-## Apparatus-VSCode/Programiz
+## Apparatus-
+VSCode/Programiz
 
 ##Theory on Loops
 📌 What is a Loop?
@@ -102,24 +103,41 @@ for(int j = 1; j <= i; j++) {
 
 To make flipped or right-aligned triangles and pyramids, a third loop is sometimes added before the inner loop. This new loop prints spaces to shift the pattern to the right.
 
-🧱 Example – Right-Aligned Triangle:
-
-for(int i = 1; i <= n; i++) {
-    for(int space = 1; space <= n - i; space++) {
-        cout << " "; // space loop
-    }
-    for(int j = 1; j <= i; j++) {
-        cout << "* "; // star loop
-    }
-    cout << endl;
-}
-Here:
 
 First loop prints n rows.
 
 Second loop prints spaces (decreasing as rows increase).
 
 Third loop prints stars (increasing per row).
+
+##Algorithm for password checker
+
+Algorithm for Password Checking Program
+Start the program
+
+Declare and assign the correct password as 123
+
+Declare a variable to store the user's input password
+
+Ask the user to enter the password
+
+Read the user's input and store it in the variable
+
+Start a loop that runs while the password is greater than 0
+
+Inside the loop, check if the user’s password is not equal to the correct password
+
+If the password is incorrect, display "Incorrect Password !"
+
+Ask the user to enter the password again
+
+Read the new input
+
+If the password is correct, display "system has been unlocked !"
+
+Exit the loop using break
+
+End the program
 
 
 
