@@ -24,7 +24,10 @@ for(initialization; condition; update){
 for(int i = 0; i < 5; i++){
     cout << i << " ";
 }
+
 // Output: 0 1 2 3 4
+
+
 2. While Loop
 Used when you don’t know exactly how many times to run — loop continues as long as the condition is true.
 
@@ -33,14 +36,21 @@ while(condition){
     // code to execute
 }
 🔹 Example:
+
 int i = 0;
 while(i < 5){
     cout << i << " ";
     i++;
 }
+
+
 // Output: 0 1 2 3 4
+
+
 3. Do-While Loop
+4. 
 Runs the code at least once, even if the condition is false.
+
 do {
     // code to execute
 } while(condition);
@@ -50,7 +60,11 @@ do {
     cout << i << " ";
     i++;
 } while(i < 5);
+
+
 // Output: 0 1 2 3 4
+
+
 🧠 Key Concepts
 ✅ Initialization:
 Starting point of the loop. Usually a counter variable like int i = 0.
@@ -62,20 +76,30 @@ The loop runs while this is true. As soon as it’s false, the loop stops.
 Changes the counter to eventually stop the loop (like i++).
 
 ## Program on patterns
+
 🔁 Structure of Pattern Printing
+
+
 ✅ 1. Outer Loop – Controls Rows
+
 The first (outer) loop is responsible for how many lines (rows) will be printed. Each iteration of this loop prints one row of the pattern.
 
 for(int i = 1; i <= n; i++) {
     // Inner loop goes here
 }
+
+
 ✅ 2. Inner Loop – Controls Columns
+
 The second (inner) loop runs inside the outer loop. It controls what to print in each row — stars, numbers, letters, etc.
 
 for(int j = 1; j <= i; j++) {
     cout << "* ";
 }
+
+
 🔄 Adding More Control – Printing Spaces
+
 To make flipped or right-aligned triangles and pyramids, a third loop is sometimes added before the inner loop. This new loop prints spaces to shift the pattern to the right.
 
 🧱 Example – Right-Aligned Triangle:
@@ -100,5 +124,7 @@ Third loop prints stars (increasing per row).
 
 
 ## Conclusion
+
+For loops are used everywhere to create conditional loops which can run untill the condition is satisfied
 
 
