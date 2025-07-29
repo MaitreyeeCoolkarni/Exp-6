@@ -3,8 +3,10 @@
 ## Apparatus-
 VSCode/Programiz
 
-##Theory on Loops
+##Theory 
+
 📌 What is a Loop?
+
 A loop is a control structure that repeats a block of code multiple times, depending on a condition.
 
 You use loops when:
