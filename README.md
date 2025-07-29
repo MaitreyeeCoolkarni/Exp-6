@@ -112,7 +112,7 @@ Second loop prints spaces (decreasing as rows increase).
 
 Third loop prints stars (increasing per row).
 
-##Algorithm for password checker
+## Algorithm for password checker
 
 Algorithm for Password Checking Program
 Start the program
