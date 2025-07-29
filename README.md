@@ -1,6 +1,6 @@
-Aim: To study and implement C++ decision making statements Loops
+##Aim: To study and implement C++ decision making statements Loops
 
-Apparatus-VSCode/Programiz
+##Apparatus-VSCode/Programiz
 
 ##Theory on Loops
 📌 What is a Loop?
